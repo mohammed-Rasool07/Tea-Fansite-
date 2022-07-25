@@ -1,0 +1,28 @@
+/**********************tag selector ****************/
+body{
+
+  background-color: #FFE2E2;
+}
+
+h1{
+  color: #0B8A95;
+  font-size: 50px;
+}
+h1:hover{
+  color: #F6416C;
+}
+h2{
+  color: #444F5A;
+  font-size: 25px;
+}
+img:hover{ background-color:white ;}
+
+/****************class selector ***********/
+
+.tea {
+  background-color: grey;
+}
+
+.coffee{
+  background-color: black;
+}
