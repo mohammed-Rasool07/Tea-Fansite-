@@ -1,12 +1,13 @@
 /**********************tag selector ****************/
 body{
-
+  padding: 0;
+  margin: 0px 0px 0px 0px;
   background-color: #FFE2E2;
 }
 
 h1{
   color: #0B8A95;
-  font-size: 50px;
+  font-size: 40px;
 }
 h1:hover{
   color: #F6416C;
@@ -25,4 +26,28 @@ img:hover{ background-color:white ;}
 
 .coffee{
   background-color: black;
+}
+/*****************navigation bar style****************/
+#navbar{
+  list-style: none;
+  display: flex;
+  padding: 0px 0px;
+  margin-top: 0;
+  background-color: #444F5A;
+  overflow: hidden;
+  position: sticky;
+  position: -webkit-sticky; /*this is for safari*/
+  top: 0;
+}
+.list-item{
+  padding: 15px 40px;
+}
+.list-item a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size:18px;
+}
+
+.list-item:hover{
+  background-color: #111;
 }
